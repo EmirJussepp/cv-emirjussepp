@@ -1,0 +1,31 @@
+* {
+    font-family: "Montserrat", sans-serif;;
+}
+
+h5 {
+    font-size: 18px;
+    color: #396D4C;
+}
+
+.color {
+    background-color: #396D4C !important;
+}
+
+hr {
+    color: #396D4C;
+    line-height: 40px;
+    opacity: 3;
+}
+
+.rounded-circle {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.rounded-circle:hover {
+    transform: scale(1.05); /* Escalar ligeramente al pasar el cursor */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Aumentar la sombra al pasar el cursor */
+}
